@@ -1,0 +1,98 @@
+body {
+  background-color: coral;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.cal {
+  width: 500px;
+  margin: 0 auto;
+  height: 50vh;
+
+  border: 2px solid black;
+  border-radius: 0px 0px 20px 20px;
+  background-image: linear-gradient(rgba(124, 33, 136, 0.37), yellow);
+  border-spacing: 0;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+tr:nth-child(odd) {
+  background-image: linear-gradient(
+    rgba(124, 33, 136, 0.37),
+    rgb(167, 11, 120)
+  );
+}
+
+tr:nth-child(even) {
+  background-image: linear-gradient(rgba(124, 33, 136, 0.37), yellow);
+}
+
+th {
+  text-align: center;
+}
+
+tr:last-child > td:first-child {
+  border-radius: 0px 0px 0px 20px;
+}
+
+tr:last-child > td:last-child {
+  border-radius: 0px 0px 20px 0px;
+}
+
+td {
+  text-align: center;
+}
+
+caption {
+  font-size: medium;
+  padding-bottom: 5px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#days {
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+}
+
+caption {
+  background-image: linear-gradient(rgba(124, 33, 136, 0.37), green);
+  border-radius: 20px 20px 0px 0px;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: medium;
+}
+
+td {
+  width: 75px;
+  height: 75px;
+  vertical-align: top;
+  padding: 2px;
+}
+
+td,
+th {
+  border: 1px solid rgba(43, 2, 59, 0.486);
+}
+
+span {
+  visibility: hidden;
+}
+
+td:active > span {
+  visibility: visible;
+}
+
+.old {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.new {
+  color: whitesmoke;
+  text-align: center;
+}
